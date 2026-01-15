@@ -1,6 +1,4 @@
-# Risoluzione Labirinto 
-
-# Labirinto_struct
+# Risoluzione Labirinto :  Labirinto_struct
 
 ## Descrizione
 - Programma C (compilabile in Visual Studio) che carica un labirinto da `maze.json` e simula una persona che lo percorre rispettando una semplice regola di scelta della direzione (priorità: destra, avanti, sinistra, indietro).
