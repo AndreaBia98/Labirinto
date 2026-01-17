@@ -2,10 +2,14 @@
 
 Simulazione di una persona che attraversa un labirinto seguendo la **regola della mano destra**, implementata in **C**.
 
-Il risultato richiesto si trova all intenrno del file zip **risultato.zip**
+Il risultato richiesto si trova all intenrno del file zip **risultato.zip**.
+i file all intenro sono:
+-Labirinto_struct.exe: eseguibile del programma
+-File per la corretto funzionamento: cjson.dll e maze.json
+-start.bat : file batch per la sua esecuzione. 
+
 
 la medesima cartella si trova all interno di : " Labirinto_struct/x64/Release "
-
 ---
 
 ## Descrizione
@@ -20,7 +24,6 @@ Se la persona ritorna allo start, il labirinto non ha una via di uscita valida.
 ## Requisiti
 
 - Windows
-- Compilatore C (Visual Studio consigliato)
 - Libreria **cJSON**
 - Console testuale
 
