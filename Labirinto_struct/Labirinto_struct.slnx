@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Labirinto_struct.vcxproj" Id="a60d941c-7a60-40d3-8dce-9d15c353bf07" />
+</Solution>
