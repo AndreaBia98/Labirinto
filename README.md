@@ -89,8 +89,8 @@ In caso di errore il programma termina immediatamente con un messaggio esplicati
 
 ## Visualizzazione su console
 
-* I muri sono rappresentati con blocchi ASCII
-* L’uscita è evidenziata con un simbolo speciale
+* I muri sono rappresentati con blocchi ASCII (▒)
+* L’uscita è evidenziata con un simbolo speciale (un sole ☼ )
 * La persona è rappresentata da una freccia direzionale
 
 | Direzione | Simbolo |
