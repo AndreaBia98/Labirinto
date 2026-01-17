@@ -104,23 +104,7 @@ La persona applica la **regola della mano destra** con la seguente priorità:
 
 Se nessuna mossa è possibile, la simulazione termina.
 
----
 
-## Compilazione ed esecuzione
-
-1. Clonare il repository:
-    
-    ```bash
-    git clone <repo_url>
-    cd <repo>
-    ```
-    
-2. Aprire il progetto in Visual Studio come **Console Application**
-3. Compilare ed eseguire:
-    * l’eseguibile generato
-    * oppure `start.bat`
-
----
 
 ## Note
 
