@@ -12,20 +12,6 @@ La simulazione è visualizzata su console ed evolve turno per turno con un inter
 L’obiettivo è trovare l’uscita (`E`) partendo dallo start (`S`).  
 Se la persona ritorna allo start, il labirinto non ha una via di uscita valida.
 
----
-
-## Struttura del progetto
-
-- `main.c`  
-  Codice sorgente principale
-
-- `maze.json`  
-  Descrizione del labirinto
-
-- `start.bat`  
-  Script di avvio su Windows
-
----
 
 ## Requisiti
 
