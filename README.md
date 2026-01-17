@@ -3,6 +3,7 @@
 Simulazione di una persona che attraversa un labirinto seguendo la **regola della mano destra**, implementata in **C**.
 
 Il risultato richiesto si trova all intenrno del file zip **risultato.zip**
+
 la medesima cartella si trova all interno di : " Labirinto_struct/x64/Release "
 
 ---
