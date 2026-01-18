@@ -23,7 +23,6 @@ Se la persona ritorna allo start, il labirinto non ha una via di uscita valida.
 
 ## Requisiti
 
-- Libreria **cJSON**
 - Ambiente a riga di comando su Windows:
   - Prompt dei comandi (cmd.exe)
   - PowerShell
