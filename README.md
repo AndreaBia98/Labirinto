@@ -2,13 +2,13 @@
 
 Simulazione di una persona che attraversa un labirinto seguendo la **regola della mano destra**, implementata in **C**.
 
-Il risultato richiesto si trova all interno del file zip **risultato.zip**.
-i file all interno sono:
-- Labirinto_struct.exe: eseguibile del programma
-- File per la corretto funzionamento: cjson.dll e maze.json
-- start.bat : file batch per la sua esecuzione. 
+Il risultato richiesto si trova all'interno del file zip **risultato.zip**.  
+I file all'interno sono:
+- `Labirinto_struct.exe`: eseguibile del programma
+- File per il corretto funzionamento: `cjson.dll` e `maze.json`
+- `start.bat`: file batch per l'esecuzione del programma
 
-la medesima cartella si trova all interno di : " Labirinto_struct/x64/Release "
+La medesima cartella si trova all'interno di: `Labirinto_struct/x64/Release`
 
 ---
 
@@ -20,11 +20,13 @@ La simulazione è visualizzata su console ed evolve turno per turno con un inter
 L’obiettivo è trovare l’uscita (`E`) partendo dallo start (`S`).  
 Se la persona ritorna allo start, il labirinto non ha una via di uscita valida.
 
+---
 
 ## Modalità di lavoro
-Il programma è stato sviluppato in Microsoft Visual Studio, implementando il linguaggio di programmazione c. 
 
-- Per eseguire su terminale di windows è stata implementata la libreria windows.h per `sleep()`
+Il programma è stato sviluppato in Microsoft Visual Studio, implementando il linguaggio di programmazione **C**.
+
+- Per l'esecuzione su terminale Windows è stata utilizzata la libreria `windows.h` per la funzione `Sleep()`
 - Per accedere al file JSON è stata utilizzata la libreria [cJSON](https://github.com/DaveGamble/cJSON):
     - `cJSON_Parse(buffer)` per convertire il contenuto del file JSON in una struttura dati navigabile.
     - `cJSON_GetObjectItem(root, "maze")` per accedere al campo `"maze"` del file.
@@ -34,6 +36,7 @@ Il programma è stato sviluppato in Microsoft Visual Studio, implementando il li
     - `cJSON_GetStringValue()` per leggere il contenuto delle singole celle.
     - `cJSON_Delete()` per liberare la memoria allocata dalla libreria al termine del parsing.
 
+---
 
 ## Requisiti
 
@@ -49,16 +52,16 @@ Il programma è stato sviluppato in Microsoft Visual Studio, implementando il li
 ### Labirinto
 
 Contiene:
-- matrice con dimenzione dinamica del labirinto
+- matrice con dimensione dinamica del labirinto
 - numero di righe e colonne
 - coordinate di start ed end
 
 ### Persona
 
 Contiene:
-- posizione corrente 
+- posizione corrente
 - direzione corrente
-- nome 
+- nome
 
 ---
 
@@ -84,9 +87,10 @@ In caso di errore il programma termina immediatamente con un messaggio esplicati
 ```json
 {
   "maze": [
-    ["X","X","X","X","X"],
-    ["X","S"," ","E","X"],
-    ["X","X","X","X","X"]
+    ["X","X","X","E","X"],
+    ["X"," "," "," ","X"],
+    ["X"," ","X","X","X"],
+    ["X","S","X","X","X"]
   ]
 }
 ```
@@ -96,14 +100,14 @@ In caso di errore il programma termina immediatamente con un messaggio esplicati
 * `X` : muro
 * `S` : start
 * `E` : end
-* ` ` : spazio percorribile
+* ` `: spazio percorribile
 
 ---
 
 ## Visualizzazione su console
 
 * I muri sono rappresentati con blocchi ASCII (▒)
-* L’uscita è evidenziata con un simbolo speciale (un sole ☼ )
+* L’uscita è evidenziata con un simbolo speciale (sole ☼)
 * La persona è rappresentata da una freccia direzionale
 
 | Direzione | Simbolo |
@@ -126,12 +130,12 @@ La persona applica la **regola della mano destra** con la seguente priorità:
 
 Se nessuna mossa è possibile, la simulazione termina.
 
-
+---
 
 ## Note
 
 * Codice modulare e commentato
 * Gestione corretta della memoria dinamica
-* Progetto facilmente estendibile, grazie ad uso di strutture e funzioni adeguate
+* Progetto facilmente estendibile, grazie all’uso di strutture e funzioni adeguate
 
 ---
