@@ -22,7 +22,7 @@ Se la persona ritorna allo start, il labirinto non ha una via di uscita valida.
 
 
 ## Modalità di lavoro
-Il programma è stato sviluppato in visualcode studio, implementando il linguaggio di programmazione c. 
+Il programma è stato sviluppato in Microsoft Visual Studio, implementando il linguaggio di programmazione c. 
 
 - Per eseguire su terminale di windows è stata implementata la libreria windows.h per `sleep()`
 - Per accedere al file JSON è stata utilizzata la libreria [cJSON](https://github.com/DaveGamble/cJSON):
