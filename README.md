@@ -3,7 +3,7 @@
 Simulazione di una persona che attraversa un labirinto seguendo la **regola della mano destra**, implementata in **C**.
 
 Il risultato richiesto si trova all interno del file zip **risultato.zip**.
-i file all intenro sono:
+i file all interno sono:
 - Labirinto_struct.exe: eseguibile del programma
 - File per la corretto funzionamento: cjson.dll e maze.json
 - start.bat : file batch per la sua esecuzione. 
